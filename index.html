@@ -5,15 +5,135 @@
     <title></title>
     <script src="jquery.js" charset="utf-8"></script>
     <link rel="stylesheet" href="styles/style.css">
+
+    <script type="text/javascript">
+    $(function() {
+      $("#circle1").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 50)
+        let y = Math.round(Math.random() * 20)
+        $("#circle1").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle2").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 60)
+        let y = Math.round(Math.random() * 50)
+        $("#circle2").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle3").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 50)
+        let y = Math.round(Math.random() * 40)
+        $("#circle3").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle4").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 40)
+        let y = Math.round(Math.random() * 50)
+        $("#circle4").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle5").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 10)
+        let y = Math.round(Math.random() * 10)
+        $("#circle5").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle6").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 50)
+        let y = Math.round(Math.random() * 20)
+        $("#circle6").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle7").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 60)
+        let y = Math.round(Math.random() * 50)
+        $("#circle7").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle8").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 50)
+        let y = Math.round(Math.random() * 40)
+        $("#circle8").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle9").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 40)
+        let y = Math.round(Math.random() * 50)
+        $("#circle9").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+
+    $(function() {
+      $("#circle10").on("mouseenter", function() {
+        let x = Math.round(Math.random() * 10)
+        let y = Math.round(Math.random() * 10)
+        $("#circle10").css({
+        "top": y + "vw",
+        "left": x + "vw"
+        })
+      })
+    })
+    </script>
   </head>
   <body>
     <section>
       <div id="bigcircle">
-        <div id="circles"></div>
-        <div id="circles"></div>
-        <div id="circles"></div>
-        <div id="circles"></div>
-        <div id="circles"></div>
+        <p>DOT</p>
+        <div id="circles">
+          <div id="circle1">完璧</div>
+          <div id="circle2">慰め</div>
+          <div id="circle3">装置</div>
+          <div id="circle4">大きい</div>
+          <div id="circle5">小さい</div>
+          <div id="circle6">Perfect</div>
+          <div id="circle7">Comfort</div>
+          <div id="circle8">Device</div>
+          <div id="circle9">Big</div>
+          <div id="circle10">Small</div>
+        </div>
       </div>
     </section>
   </body>
